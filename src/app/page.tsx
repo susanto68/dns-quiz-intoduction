@@ -15,7 +15,10 @@ export default function Home() {
     <div className={styles.container}>
       <main className={styles.main}>
         <div className={styles.heroSection}>
-          <h1 className={styles.title}>ASISC Fr. George Hess Quiz 2025</h1>
+          <h1 className={styles.title}>ASISC</h1>
+          <h3 className={styles.subTitle}>
+            FR. GEORGE HESS MEMORIAL ZONAL QUIZ COMPETITION 2025{" "}
+          </h3>
           <div className={styles.tributeSection}>
             <div className={styles.tributeImage}>
               <Image
@@ -28,15 +31,12 @@ export default function Home() {
               />
             </div>
             <p className={styles.tributeText}>
-              His mission in life was to reach out to the children of remote
-              India and spread the light of education. He gave up the high
-              comforts of USA to serve in the forests of Chotanagpur so that the
-              darkness of backwardness is banished with the torch of knowledge.
-              What a great teacher our Rev. Fr. George Hess was! It&apos;s his
-              accomplishment that we have been properly raised. I consider it to
-              be my lifetime privilege to have paid a standing ovation to the
-              Greatest Teacher of our lives at his last post who now rests in
-              eternal peace in the heavens.
+              Fr. George A. Hess (1919 &ndash; 2013), founder of ASISC, left New
+              Jersey to serve in India&apos;s forests. A Jesuit priest educated
+              at Georgetown, Woodstock and Stanford, he led Loyola and De Nobili
+              schools, built key campus blocks and branch schools, and
+              championed ICSE recognition. Always humble, he brightened
+              countless lives.
             </p>
           </div>
           <div className={styles.eventDetails}>

@@ -8,17 +8,17 @@
   --text-secondary: #6c757d;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
-    --background: #121212; /* Darker background */
-    --foreground: #e0e0e0; /* Lighter text */
+    --background: #121212;
+    --foreground: #e0e0e0;
     --primary-color: #0d6efd;
     --primary-hover-color: #0a58ca;
     --border-color: #495057;
     --card-background: #1c1c1c;
     --text-secondary: #adb5bd;
   }
-}
+} */
 
 html,
 body {
@@ -47,8 +47,8 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
-}
+} */

@@ -72,13 +72,19 @@
 }
 
 .tributeImage {
-  flex-shrink: 0;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  overflow: hidden;
+  /* width: 200px;
+  height: 300px; */
+  border-radius: 5px;
   border: 4px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  /* allow the image to fully display without cropping */
+  overflow: visible;
+}
+
+.tributeImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .tributeText {
@@ -98,8 +104,6 @@
   }
 
   .tributeImage {
-    width: 150px;
-    height: 150px;
     margin: 0 auto;
   }
 
@@ -120,16 +124,22 @@
   }
 }
 
-.title {
-  font-size: 4rem;
+.title,
+.subTitle {
   font-weight: 800;
   background: linear-gradient(135deg, var(--primary-color), #6366f1, #ec4899);
   background-size: 200% 200%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   line-height: 1.2;
-  animation: gradientFlow 8s ease infinite;
+  animation: gradientFlow 4s ease infinite;
+}
+.title {
+  font-size: 5rem;
+}
+.subTitle {
+  font-size: 1.4rem;
 }
 
 @keyframes gradientFlow {
@@ -283,7 +293,10 @@
   }
 
   .title {
-    font-size: 2.75rem;
+    font-size: 3.5rem;
+  }
+  .subTitle {
+    font-size: 1.2rem;
   }
 
   .eventDetails {
